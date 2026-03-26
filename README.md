@@ -44,3 +44,20 @@ Fact: fact_production (time-series metrics + calculated KPIs)
 ## Analyze & Visualize
 Analytical SQL queries (stored in queries.sql) answer mining-relevant questions\
 Final output exported to Excel → pivot tables, slicers, charts, conditional formatting for interactive dashboard
+
+### Dashboard
+The final visualization layer pulls live data from the FastAPI service using Power Query.
+
+**Features:**
+- Live refresh from API endpoints
+- Slicers for Country and Material
+- Top producers bar charts
+- High environmental risk heatmap
+- Waste ratio vs production scatter plot
+
+**How to use:
+1. Start the API (`uvicorn app.main:app --reload`)
+2. Open `dashboard/Mining_Insights_Dashboard.xlsx`
+3. Click **Data → Refresh All**
+
+
