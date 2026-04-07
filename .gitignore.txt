@@ -1,0 +1,26 @@
+# Data files - too large or sensitive
+data/*.csv
+*.zip
+
+# Database
+database/*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Excel temporary files
+~$*.xlsx
+*.tmp
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
