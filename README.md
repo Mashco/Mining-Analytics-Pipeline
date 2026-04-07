@@ -54,10 +54,12 @@ The final visualization layer pulls live data from the FastAPI service using Pow
 - Top producers bar charts
 - High environmental risk heatmap
 - Waste ratio vs production scatter plot
+- 
+## How to Run (Local Testing)
 
-**How to use:
-1. Start the API (`uvicorn app.main:app --reload`)
-2. Open `dashboard/Mining_Insights_Dashboard.xlsx`
-3. Click **Data → Refresh All**
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/mining-etl-fastapi.git
+   cd mining-etl-fastapi
 
 
