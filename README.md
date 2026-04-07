@@ -59,7 +59,7 @@ The final visualization layer pulls live data from the FastAPI service using Pow
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/mining-etl-fastapi.git
+   git clone https://github.com/Mashco/mining-etl-fastapi.git
    cd mining-etl-fastapi
 
 
